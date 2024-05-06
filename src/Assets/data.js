@@ -1,0 +1,42 @@
+export const data = [
+    {
+      question: "What is the correct command to create a new React project?",
+      option1: "npm create-react-app",
+      option2: "npx create-react-app myReactApp",
+      option3: "npx create-react-app npm",
+      option4: "create-react-app myReactApp",
+      ans: 2,
+    },
+    {
+      question: "Current Indian Cricket team captain for t20 world-cup ?",
+      option1: "Hardik Pandaya",
+      option2: "Rohit Sharma",
+      option3: "Virat Kohli",
+      option4: "Surya Kuman Yadav",
+      ans: 1,
+    },
+    {
+      question: "What command is used to start the React local development server?",
+      option1: "npm serve",
+      option2: "npm build",
+      option3: "npm start",
+      option4: "npm run dev",
+      ans: 3,
+    },
+    {
+      question: "What is the result of the following expression: `typeof([])` ?",
+      option1: "object",
+      option2: "array",
+      option3: "function",
+      option4: "undefined",
+      ans: 1,
+    },
+    {
+      question: "First page of Website is termed as?",
+      option1: "Index Page",
+      option2: "Homepage",
+      option3: "Sitemap",
+      option4: "Pen Drive",
+      ans: 2,
+    },
+  ];

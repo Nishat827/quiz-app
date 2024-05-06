@@ -1,0 +1,102 @@
+.container{
+    width: 350px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(168, 216, 235);
+    background-color: white;
+    padding: 20px 40px;
+    gap: 10px;
+    text-align: center;
+  }
+  .container hr{
+      height: 2px;
+      background: grey;
+      border: none;
+      margin-top: 5px;
+  }
+  .container h1{
+    font-size: 30px;
+    font-weight: 400;
+}
+  .container h2{
+      font-size: 20px;
+      font-weight: 500;
+  }
+  .container ul li {
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      height: 10px;
+      border: 1px solid grey;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      cursor: pointer;
+      font-size: 15px;
+  }
+
+  .btn{
+      height: 40px;
+      width: 80px;
+      padding: 5px;
+      border-radius: 5px;
+      color: white;
+      background-color: palevioletred;
+      box-shadow: 2px 2px 5px rgb(239, 153, 167);
+      border: none;
+      margin: 0 auto;
+      cursor:pointer;
+  }
+
+  .container .index{
+     color:blueviolet;
+     font-size: 1.2rem;
+  }
+  .container p{
+      color: #c71585;
+      font-size: 1.2rem;
+  }
+  p{
+      color: #f49a9a;
+      color: #9eee9e;
+  }
+  .correct-ans{
+     background-color: #9eee9e;
+  }
+  .wrong-ans{
+    background-color: #f49a9a;
+ }
+
+.btn-re{
+    height: 40px;
+      width: 80px;
+      padding: 5px;
+      border-radius: 5px;
+      color: white;
+      background-color: palevioletred;
+      box-shadow: 2px 2px 5px rgb(239, 153, 167);
+      border: none;
+      margin: 0 auto;
+      cursor:pointer;
+}
+
+.container-res{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    border: 3px solid palevioletred;
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px;
+    font-size: 1.2rem;
+    row-gap: 15px;
+}
